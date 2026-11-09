@@ -162,25 +162,27 @@ Explored relationships between pairs of variables to identify patterns, trends, 
 ### Key Business Insights
 Which genres receive the highest IMDb ratings?
 - Overall, most genres receive favorable ratings, with median ratings generally above 7.0.
-[!GenrevsRating][ScreenShot/GenrevsRating.png]
-
+![Genre vs Rating](ScreenShot/GenrevsRating.png)
 Which genres attract the highest audience engagement (Votes)?
 - Audience engagement varies across genres, with Fantasy, Sci-fi, Adventure , and Animation generally attracting higher vote counts.
 - While most genres contain a few exceptionally popular titles, Comedy, Drama, and Thriller tend to receive lower audience engagement overall.The presence of several extreme outliers suggests that a small number of highly popular titles significantly influence audience participation within certain genres.
+![Genre vs VotesK](ScreenShot/GenrevsVotesK.png)
 
 Is there a relationship between IMDb ratings and audience votes? 
 - The scatter plot indicates a moderate positive association between IMDb ratings and audience engagement.
 - Titles with higher ratings tend to receive more votes, suggesting that well-received content often attracts greater 
 audience attention and participation.
+![Rating vs VotesK](ScreenShot/RatingvsVotesK.png)
 
 Which certification categories (PG, PG-13, TV-MA, etc.) perform best in terms of ratings and popularity? 
 - The analysis suggests a positive relationship between IMDb ratings and audience engagement. 
 - Titles with higher ratings generally attract more audience votes, while certificate categories 
 such as TV-MA contain several highly rated and highly engaged titles.
+![Certificate vs Rating vs VotesK](ScreenShot/VoteskvsRatingvsCertificate.png)
 
 How do runtime and release year influence ratings? Do critic scores (Metascore) align with audience ratings?
 - Spearman correlations are generally stronger than Pearson correlations, indicating that many relationships in the dataset are monotonic in nature and not strictly linear
-
+![Corr1](ScreenShot/NumsColsCorr1.png) ![Corr2](ScreenShot/NumsColsCorr2.png)
 
 ## Conclusion
 
