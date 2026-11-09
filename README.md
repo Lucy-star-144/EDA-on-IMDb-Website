@@ -162,6 +162,7 @@ Explored relationships between pairs of variables to identify patterns, trends, 
 ### Key Business Insights
 Which genres receive the highest IMDb ratings?
 - Overall, most genres receive favorable ratings, with median ratings generally above 7.0.
+[!GenrevsRating][ScreenShot/GenrevsRating.png]
 
 Which genres attract the highest audience engagement (Votes)?
 - Audience engagement varies across genres, with Fantasy, Sci-fi, Adventure , and Animation generally attracting higher vote counts.
